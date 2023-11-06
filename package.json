@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
+  "homepage": "https://imamnurhadi.github.io/imamnurhadikalkulator.github.io/",
+
   "dependencies": {
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
+    "gh-pages": "^6.0.0",
     "vite": "^4.4.11"
   }
 }
